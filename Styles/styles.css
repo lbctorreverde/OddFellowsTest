@@ -269,24 +269,20 @@ button:hover{
 }
 
 .service{
-	margin-top: 10%;
-	margin-bottom: 10%;
-	width: 100%;
-	padding: 100px 0px;
-	display: flex;
 	transform: translateY(100%);
-	position: relative;
-	
+	height: 95vh;
+	display: flex;
+	width: 100%;
+	padding: 50px 0px;
+	flex-direction: column;
+
 }
 
-.title-event h2 {
+.title-event {
+	display: flex;
 	color: white;
-	font-size: 75px;
-	width: 1130px;
-	text-align: center;
-	color: white;
-	font-size: 55px;
-	text-align: center;
+	font-size: 40px;
+	justify-content: center;
 
 }
 
@@ -298,6 +294,9 @@ button:hover{
 	align-items: center;
 	text-align: center;
 	min-height: 400px;
+	height: 95vh;
+	padding-bottom: 50vh;
+	flex-direction: row;
 }
 .card{
 	height: 365px;
