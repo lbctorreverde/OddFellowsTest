@@ -24,6 +24,17 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
 		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
 		crossorigin="anonymous"></script>
+
+	<!-- Script JS -->
+	<script src="script.js"></script>
+	<script src="sectionScroller.min.js"></script>
+
+	<style>
+		html {
+			scroll-behavior: smooth;
+		}
+	</style>
+
 </head>
 
 <body>
@@ -31,13 +42,13 @@
 	<div class="hero">
 
 	</div>
-	
+
 	<header>
 		<h2 class="logo">ODD FELLOWS</h2>
 		<nav>
 			<ul class="nav-header">
 				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li><a data-scroll class="scroll-about" href="#about">About</a></li>
 				<li><a href="#">Event</a></li>
 			</ul>
 		</nav>
@@ -63,9 +74,9 @@
 	</div>
 	</div>
 	<!----About section start---->
-	<section class="about">
+	<section class="about" id="about">
 		<div class="main">
-			<img id="img-one-hehe"src="Assets/image.jpg">
+			<img id="img-one-hehe" src="Assets/image.jpg">
 			<div class="about-text">
 				<h2>About Us</h2>
 				<h5> Nonprofit organization</h5>
@@ -92,7 +103,8 @@
 	<!------Contact Me------>
 	<div class="contact-me">
 		<p>Interested?</p>
-		<a class="button-two" href="https://mail.google.com/mail/?view=cm&fs=1&to=lbctorreverde@bpsu.edu.ph" target="_blank" rel="noopener noreferrer">Email us!</a>
+		<a class="button-two" href="https://mail.google.com/mail/?view=cm&fs=1&to=sample@gmail.com"
+			target="_blank" rel="noopener noreferrer">Email us!</a>
 	</div>
 
 	<!------footer start--------->
