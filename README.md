@@ -19,9 +19,11 @@ Commit if you have functions that has been done
 Commit if you have html design that has been done
 Commit for bugfix you have seen
 etc....
+
 Pushing at Github
 When your CHORE is done
 git add . - To add all your edit changes
 git commit -m "CHORE <number> - <title of your work>" - to commit your work
-When all is done push your work at github to do that
+
+  When all is done push your work at github to do that
 git push origin <branch_name> - check your branch name above
