@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Independent Order of Odd Fellows</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/x-icon" href="/Assets/oddfellows-favico.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./Styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+	<!-- Bootstap CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+
+	<!-- Script JS -->
+	<script src="script.js"></script>
+	<script src="sectionScroller.min.js"></script>
+
+	
+
+</head>
+
+<body>
+
+	<div id="Preloder">
+        <svg viewBox="0 0 24 24"  fill="none" xmlns="http://www.w3.org/2000/svg">
+          <style>
+              @keyframes rotate-center {
+                  0% {
+                      -webkit-transform: rotate(0);
+                      transform: rotate(0)
+                  }
+
+                  to {
+                      -webkit-transform: rotate(360deg);
+                      transform: rotate(360deg)
+                  }
+              }
+          </style>
+          <g style="transform-origin:center center;animation:rotate-center 1s cubic-bezier(.55,.085,.68,.53) infinite alternate forwards"
+              fill="#ffffff">
+              <circle cx="4" cy="12" r="2" />
+              <circle cx="12" cy="12" r="2" />
+              <circle cx="20" cy="12" r="2" />
+          </g>
+      </svg>
+
+      </div> 
+
+	  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script>
+        $(document).ready(function() {
+          setTimeout(()=>{
+            $('#Preloder').addClass('loaded');
+          },1500);
+          setTimeout(()=>{
+            $('#Preloder').remove('loaded');
+          },4000);
+        })
+      </script>
+
+	<div class="hero">
+
+
+	</div>
+
+	
+
+	<header>
+		<h2 class="logo">ODD FELLOWS</h2>
+		<nav>
+			<ul class="nav-header">
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#service">Event</a></li>
+			</ul>
+		</nav>
+		<a class="cta" href="#contact-me">Contact</a>
+		<p class="menu cta">Menu</p>
+	</header>
+	<div id="mobile__menu" class="overlay">
+		<a class="close">&times;</a>
+		<div class="overlay__content">
+			<a href="#">Services</a>
+			<a href="#">Projects</a>
+			<a href="#">About</a>
+		</div>
+	</div>
+
+	
+
+	<div class="content">
+		<h1>INDEPENDENT ORDER OF ODD FELLOWS</h1>
+		<h3>Flaming Sword NO. 44</h3>
+		<h4>Odd Fellows Philippines is a part of a <br>
+			worldwide fraternal organization <br>
+			whose origins goes back on o</h4>
+
+	</div>
+	</div>
+	<!----About section start---->
+	<section class="about" id="about">
+		<div class="main">
+			<img id="img-one-hehe" src="Assets/image.jpg">
+			<div class="about-text">
+				<h2>About Us</h2>
+				<h5> Nonprofit organization</h5>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laboriosam iure voluptatem ad
+					veritatis dicta, suscipit quia illum corrupti ipsum corporis vero deserunt fuga facilis et nesciunt
+					earum animi illo dolore unde rem a excepturi enim. Ratione suscipit dolor perferendis?</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<section class="service" id="service">
+		<div class="title-event">
+			<h2>Events</h2>
+		</div>
+
+		<div class="box">
+			<h1>!!Under Construction!!</h1>
+		</div>
+	</section>
+
+
+	<!------Contact Me------>
+	<div class="contact-me" id="contact-me">
+		<p>Interested?</p>
+		<a class="button-two" href="https://mail.google.com/mail/?view=cm&fs=1&to=sample@gmail.com" target="_blank"
+			rel="noopener noreferrer">Email us!</a>
+	</div>
+
+	
+
+	<!------footer start--------->
+	<footer>
+		<p>Odd Fellows</p>
+		<p>That Brotherly Love and Charity, Which sincerely comes from the Heart, and translated into Actions</p>
+		<div class="social">
+			<a href="https://www.facebook.com/FlamingSwordBataan44/"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">Copyright</p>
+	</footer>
+
+
+
+</body>
+
+</html>
