@@ -110,3 +110,22 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+//Pop-up Login Form
+function openForm() {
+  document.getElementById("loginForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("loginForm").style.display = "none";
+}
+
+$('.signin').on('click', function(){
+  $('body').addClass('active-modal');
+  $('.box-modal').addClass('modal-show');
+});
+
+$('.overlay').on('click', function(){
+  $('body').removeClass('active-modal');
+  $('.box-modal').removeClass('modal-show');
+})
