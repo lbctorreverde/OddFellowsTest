@@ -6,8 +6,10 @@ git pull origin main
 You have specific branch I make in order to be organize so it will be your local repository Branches:
 example :
 
+```bash
 ISK-Jef
 ISK-Leo
+```
 
 
 To create a branch at your local computer
