@@ -304,7 +304,8 @@ button:hover{
 }
 
 .service{
-	height: 100vh;
+	margin-top: -30vh;
+	margin-bottom: 30vh;
 	display: flex;
 	width: 100%;
 	padding: 100px 0px;
@@ -333,7 +334,7 @@ button:hover{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	min-height: 400px;
+	min-height: 500px;
 	height: 95vh;
 	padding-bottom: 50vh;
 	flex-direction: row;
@@ -550,4 +551,7 @@ footer p:nth-child(2){
 	opacity: 1;
   }
 
-  
+  video {
+	margin-top: 5vh;
+	width: 80vh;
+  }
